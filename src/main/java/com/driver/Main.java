@@ -7,8 +7,8 @@ public class Main {
         int ans = p.product(4, 10);
         System.out.println(ans);
 
-        ans = p.product(2,2,2);
-        System.out.println(ans);
+        int sans = p.product(2,2,2);
+        System.out.println(sans);
 
         double dAns = p.product(10.00, 10.00);
         System.out.println(dAns);
