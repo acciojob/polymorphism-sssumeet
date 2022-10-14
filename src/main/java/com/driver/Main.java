@@ -4,28 +4,28 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        int ans = p.product(4, 10);
+        int ans = p.product(5, 7);
         System.out.println(ans);
 
-        int sans = p.product(2,2,2);
+        int sans = p.product(6,8,10);
         System.out.println(sans);
 
-        double dAns = p.product(10.00, 10.00);
+        double dAns = p.product(5.6, 7.2);
         System.out.println(dAns);
 
     }
 
     public static class Product{
 
-        public static int product(int x, int y){
+        public int product(int x, int y){
             return (x*y);
         }
 
-        public static int product(int x, int y, int z){
-            return (x*y*x);
+        public int product(int x, int y, int z){
+            return (x*y*z);
         }
 
-        public static double product(double x, double y){
+        public double product(double x, double y){
             return (x*y);
         }
 
